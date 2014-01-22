@@ -1,0 +1,134 @@
+
+button.keypad-trigger {
+	width: 25px;
+	padding: 0px;
+}
+img.keypad-trigger {
+	margin: 2px;
+	vertical-align: middle;
+}
+.keypad-popup, .keypad-inline, .keypad-key, .keypad-special {
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 12px;
+}
+.keypad-popup {
+	display: none;
+	z-index: 10;
+	margin: 0;
+	padding: 4px 0px 4px 10px;
+	background-color: #E6E6E6;
+	color: #000;
+	border: 1px solid #cfcfcf;
+	box-shadow: inset 1px 1px 0 rgba(255, 255, 255, 0.5),inset -1px -1px 0 rgba(255, 255, 255, 0.5);
+	-moz-box-shadow: inset 1px 1px 0 rgba(255,255,255,0.5),inset -1px -1px 0 rgba(255,255,255,0.5);
+	-webkit-box-shadow: inset 1px 1px 0 rgba(255, 255, 255, 0.5),inset -1px -1px 0 rgba(255, 255, 255, 0.5);
+}
+.keypad-keyentry {
+	display: none;
+}
+.keypad-inline {
+	background-color: #fff;
+	border: 1px solid #888;
+	-moz-border-radius: 0.25em;
+	-webkit-border-radius: 0.25em;
+	border-radius: 0.25em;
+}
+.keypad-disabled {
+	position: absolute;
+	z-index: 100;
+	background-color: white;
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+}
+.keypad-rtl {
+	direction: rtl;
+}
+.keypad-prompt {
+	clear: both;
+	text-align: center;
+}
+.keypad-prompt.ui-widget-header {
+	margin: 0.125em;
+}
+.keypad-row {
+	width: 100%;
+}
+.keypad-space {
+	display: inline-block;
+	margin: 0.125em;
+	width: 2em;
+}
+.keypad-half-space {
+	display: inline-block;
+	margin: 0.125em 0.0625em;
+	width: 1em;
+}
+.keypad-key:hover {
+	background-color: #d5d5d5;
+}
+.keypad-key:active {
+	background-color: #ccc;
+	border-bottom: 1px solid #F0F0F0;
+	border-right: 1px solid #F0F0F0;
+	border-top: 1px solid #C8C8C8;
+	border-left: 1px solid #C8C8C8;
+}
+.keypad-key, .keypad-special {
+	padding: 1px 6px !important;
+	margin: 2px;
+	width: 30px;
+	color: #424242;
+	border-bottom: 1px solid #C8C8C8;
+	border-right: 1px solid #C8C8C8;
+	border-top: 1px solid #F0F0F0;
+	border-left: 1px solid #F0F0F0;
+	background: none !important;
+	background-color: #E6E6E6 !important;
+	text-align: center;
+	cursor: pointer;
+}
+.keypad-key[disabled] {
+	border: 0.125em outset;
+}
+.keypad-key-down {
+}
+.keypad-special {
+}
+.keypad-spacebar {
+	width: 13.25em;
+}
+.keypad-tab {
+	width: 2em;
+}
+.keypad-clear, .keypad-back, .keypad-close, .keypad-shift {
+}
+.keypad-clear {
+	background-color: #a00;
+}
+.keypad-back:active {
+	background-color: #ccc;
+	border-bottom: 1px solid #F0F0F0;
+	border-right: 1px solid #F0F0F0;
+	border-top: 1px solid #C8C8C8;
+	border-left: 1px solid #C8C8C8;
+}
+.keypad-back:hover {
+	background-color: #d5d5d5;
+}
+.keypad-back {
+}
+.keypad-close:active {
+	background-color: #ccc;
+	border-bottom: 1px solid #F0F0F0;
+	border-right: 1px solid #F0F0F0;
+	border-top: 1px solid #C8C8C8;
+	border-left: 1px solid #C8C8C8;
+}
+.keypad-close:hover {
+	background-color: #d5d5d5;
+}
+.keypad-close {
+}
+.keypad-shift {
+	background-color: #0aa;
+}
